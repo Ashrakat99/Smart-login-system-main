@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    
+</head>
+<body>
+    <div class="container my-5 text-center ">
+        <div class="box m-auto w-75 p-5">
+            <input type="text" class="form-control my-4" id="Name" placeholder="Enter your Name">
+            <input type="email" class="form-control my-4" id="signupEmail" placeholder="Enter your Email">
+            <input type="password" class="form-control my-4" id="signupPassword" placeholder="Enter your Password">
+            <p id="exist"></p>
+            <button onclick=" signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="./login.html">Signin</a></p>
+        
+        </div>
+    </div>
+
+    <script src="../js/signup.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    color: #17A2B8;
+}
+.box{
+    box-shadow: -5px 2px 60px -9px rgba(0, 0, 0, 1); 
+}
+
+input,
+textarea{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: gainsboro !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.text-white a {
+    color: #fff;
+    text-decoration: none; 
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.3s ease; 
+}
+
+.text-white a:hover {
+    border-bottom: 2px solid #fff; 
+}
+
